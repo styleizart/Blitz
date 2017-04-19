@@ -1,0 +1,226 @@
+/*custom fonts start*/
+@font-face {
+ font-family: pacifico;
+ src: url("fonts/Pacifico.eot")
+}
+@font-face {
+ font-family: pacifico;
+ src: url("fonts/Pacifico.ttf") 
+}
+
+@font-face {
+ font-family: bebas;
+ src: url("fonts/bebas.eot") 
+}
+@font-face {
+ font-family: bebas;
+ src: url("fonts/bebas.TTF")
+}
+
+/*custom fonts end*/
+
+/*top section css start*/
+#logo{
+	padding: 30px 0;
+}
+
+#logo h1{
+	margin: 0;
+	font-family: pacifico;
+	color: #464646;
+	padding-left: 14px;
+	font-size: 50px;
+}
+
+#logo a{
+	color: #464646;
+	text-decoration: none;
+}
+
+#menu{
+	padding: 30px 0;
+}
+
+#menu a{
+	color: #a4a4a4;
+}
+
+#menu ul{
+	list-style: none;
+	text-align: left;
+	font-family: bebas;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding-right: 54px;
+	color: #a4a4a4;
+}
+
+#menu span{
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	color: #464646;
+}
+/*top section css end*/
+
+/*slider section css start*/
+.slider-img{
+	position: relative;
+}
+
+.slider-img img{
+	width: 100%;
+}
+
+.col-md-3{
+	background: #3f3f3f;
+	padding:0;
+	margin: 0;
+	position: absolute;
+	bottom: 1px;
+}
+
+.col-md-3 ul{
+	list-style: none;
+	font-family: bebas;
+}
+
+.col-md-3 ul li{
+	display: inline-block;
+	padding-top: 5px;
+	color: #909090;
+}
+
+.col-md-3 span{
+	display: block;
+	color: white;
+	font-size: 25px;
+}
+/*slider section css end*/
+
+/*text section css start*/
+#text{
+	margin: 0;
+	padding: 0;
+	background: #f6f6f6;
+}
+
+#text{
+	height: 20vh;
+}
+
+#text h2{
+	font-family: bebas;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#text p{
+	padding-left: 10px;
+}
+/*text section css end*/
+
+/*mid1 css start*/
+.img-responsive img{
+	width: 100%;
+}
+
+.cta span{
+	font-weight: bolder;
+	color: #414141;
+}
+
+.col-md-10 h3{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	font-weight: bold;
+	font-family: bebas;
+	text-align: justify;
+	color: #414141;	
+}
+
+.col-md-4{
+	padding-top: 50px;
+	height: 50vh;
+	text-align: justify;
+}
+
+#para p{
+	padding: 20px 0;
+}
+
+.cta a{
+	color: #414141;
+}
+/*mid1 css end*/
+
+/*mid2 section css start*/
+.mid2{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.box{
+	width: 24%;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: justify;
+	padding: 0 10px;
+	vertical-align: top;
+	height: 70vh;
+}
+
+.box img{
+	width: 100%;
+}
+
+.box h3{
+	font-family: bebas;
+	padding: 10px 0;
+	color: #414141;
+}
+
+.box p{
+	padding-bottom: 10px;
+}
+
+#header{
+	height: 25vh;
+	padding-top: 30px;
+	padding-left: -5px;
+}
+/*mid2 section css end*/
+
+/*footer section css start*/
+#left{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+}
+
+#left span{
+	font-family: pacifico;
+	font-weight: bold;
+}
+
+#right{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+}
+
+#right span{
+	font-family: bebas;
+	font-weight: bold;
+}
+
+.container-fluid{
+	background: #f8f8f8;
+	height: 10vh;
+}
+/*footer section css end*/
